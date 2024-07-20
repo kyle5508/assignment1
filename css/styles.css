@@ -1,0 +1,202 @@
+/*Kyle Lahhn 8995508*/
+
+body{
+    max-width: 2200px;
+    
+}
+
+h1{
+    width: 100%;
+    font: normal normal bold 4rem/normal 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #212E69;
+    background-image: linear-gradient(45deg, #A00016, white, #A00016);
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+h2{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font: bold normal normal 1.5rem/normal 'Times New Roman', Times, serif;
+    color: #212E69;
+}
+
+#img, iframe{
+    border-top: .4rem groove #A00016;
+    border-bottom: .4rem groove #A00016;
+    border-left: .4rem groove #A00016;
+    border-right: .4rem groove #A00016; 
+    border-radius: .5rem;
+    background-color: #212E69;
+    font: italic normal normal 1.5rem/normal 'Times New Roman', Times, serif;
+    color: #E9DAC6;
+    
+}
+
+/*Main Content*/
+#main{
+    float: left;
+    width: 70%;
+    
+}
+
+#bio{
+    padding: 0 0 0 0;
+    margin: 0 0 0 1rem; 
+    float: left;
+    width: 35%;
+}
+
+
+#img{
+    padding: 0 0 0 0;
+    margin: 0 0 1rem 1rem;
+    float: left
+}
+
+#quote{
+    padding: 0 0 0 0;
+    margin: 0 0 2rem 0;
+    clear: both;   
+    font: italic normal normal 1.5rem/normal 'Times New Roman', Times, serif;
+    color: #212E69;
+    box-shadow: 10px 10px 8px #212E69;
+    width: 25%;
+    text-align: center; 
+    border-top: .2rem groove #212E69;
+    border-bottom: .2rem groove #212E69;
+    border-left: .2rem groove #212E69;
+    border-right: .2rem groove #212E69; 
+}
+
+#quote cite{
+    font-size: smaller;
+}
+
+#vid{
+    padding: 0 0 0 0;
+    margin: 2rem 0 0 1rem;
+    clear: both;
+}
+
+/*Aside Content*/
+#aside{
+    float: right;
+    width: 30%;
+}
+
+
+aside h2{
+    font: bold normal normal 1.5rem/normal 'Times New Roman', Times, serif;
+    color: #212E69;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+
+#list{
+    padding: 0 0 0 0;
+    margin: 0 0 10rem 0; 
+    
+}
+
+
+
+#list ul{
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1.8rem;
+    text-align:center; 
+}
+
+#list a:link{
+    color: #212E69;
+}
+
+#list a:hover{
+    color:#A00016;
+}
+
+
+#form{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.form-label{
+    color:#212E69;
+    font: normal normal normal 1.3rem/normal 'Times New Roman', Times, serif;
+    float: left;
+    text-align: right;
+    width: 12em;
+    
+}
+
+.form-control{
+   width: 15em;
+   margin-left: .5em;
+   width: 12em;
+}
+
+button{
+    float: right;
+    margin-right: 4.5rem;
+}
+
+
+
+#message{
+    height: 10rem;
+}
+
+/*Footer*/
+
+#footer{
+    font-size: smaller;
+    color: #212E69;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    clear: both;
+    background-image: linear-gradient(45deg, #A00016, white, #A00016);
+}
+
+
+/* When text starts cutting off*/
+@media (max-width : 1100px){
+   
+   html{
+    font-size: .8rem;
+   }
+
+#bio{
+    padding: 0 0 0 0;
+    margin: 0 0 0 1rem; 
+    width: 100%;
+}
+
+
+#img{
+    padding: 0 0 0 0;
+    margin: 0 0 1rem 1rem;
+}
+
+#aside{
+    float: none; 
+}
+
+.form-label{
+    text-align: center;
+}
+
+#list{
+    margin: 0 0 5rem 0;
+}
+
+#vid{
+    margin: 0 0 5rem 0;
+}
+
+}
+
